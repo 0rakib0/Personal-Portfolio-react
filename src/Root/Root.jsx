@@ -4,7 +4,7 @@ import Navbar from "../Components/ShareComponent/NavBar/NavBar"
 
 const Root = () =>{
     return(
-        <div>
+        <div className="bg-red-200">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
