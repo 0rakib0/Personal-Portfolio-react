@@ -1,14 +1,16 @@
 import { NavLink } from "react-router-dom"
+import { FaArrowRight } from "react-icons/fa";
+import './Navbar.css'
 
 const Navbar = () => {
 
 
     const navLink = <>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skill</a></li>
-        <li><a href="#">Porfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li className="md:text-xl"><a href="#">Home</a></li>
+        <li className="md:text-xl"><a href="#">About</a></li>
+        <li className="md:text-xl"><a href="#">Skill</a></li>
+        <li className="md:text-xl"><a href="#">Porfolio</a></li>
+        <li className="md:text-xl"><a href="#">Contact</a></li>
     </>
 
     return (
@@ -22,7 +24,7 @@ const Navbar = () => {
                         {navLink}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">RAKIB</a>
+                <a className="btn btn-ghost md:text-4xl text-xl">RA<span className="text-secondaryColor">KIB</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -30,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button>Hire Me</button>
+                <button className="bg-transparent border-2 border-secondaryColor py-2 px-4 md:px-6 hireButton flex items-center gap-2">Hire Me <FaArrowRight></FaArrowRight></button>
             </div>
         </div>
     )
