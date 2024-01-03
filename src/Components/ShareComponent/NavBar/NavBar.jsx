@@ -4,10 +4,11 @@ const Navbar = () => {
 
 
     const navLink = <>
-        <li><NavLink to='#home'>Home</NavLink></li>
-        <li><NavLink to='about'>About</NavLink></li>
-        <li><NavLink to='skill'>Skill</NavLink></li>
-        <li><NavLink to='project'>Project</NavLink></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skill</a></li>
+        <li><a href="#">Porfolio</a></li>
+        <li><a href="#">Contact</a></li>
     </>
 
     return (
@@ -21,7 +22,7 @@ const Navbar = () => {
                         {navLink}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl">RAKIB</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -29,7 +30,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <button>Hire Me</button>
             </div>
         </div>
     )
