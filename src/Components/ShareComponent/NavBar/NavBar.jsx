@@ -6,11 +6,11 @@ const Navbar = () => {
 
 
     const navLink = <>
-        <li className="md:text-xl"><a href="#">Home</a></li>
-        <li className="md:text-xl"><a href="#">About</a></li>
-        <li className="md:text-xl"><a href="#">Skill</a></li>
-        <li className="md:text-xl"><a href="#">Porfolio</a></li>
-        <li className="md:text-xl"><a href="#">Contact</a></li>
+        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Home</a></li>
+        <li className="md:text-xl navItem md:text-white text-black"><a href="#">About</a></li>
+        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Skill</a></li>
+        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Porfolio</a></li>
+        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Contact</a></li>
     </>
 
     return (
@@ -24,7 +24,7 @@ const Navbar = () => {
                         {navLink}
                     </ul>
                 </div>
-                <a className="btn btn-ghost md:text-4xl text-xl">RA<span className="text-secondaryColor">KIB</span></a>
+                <a className="btn btn-ghost md:text-4xl text-xl logohover">RA<span className="text-secondaryColor">KIB</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="bg-transparent border-2 border-secondaryColor py-2 px-4 md:px-6 hireButton flex items-center gap-2">Hire Me <FaArrowRight></FaArrowRight></button>
+                <button className="rounded-md bg-transparent border-2 border-secondaryColor py-2 px-4 md:px-6 hireButton flex items-center gap-2">Hire Me <FaArrowRight></FaArrowRight></button>
             </div>
         </div>
     )

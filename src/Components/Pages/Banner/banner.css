@@ -1,0 +1,23 @@
+.resumeBTN{
+    transition-duration: 2s;
+    position: relative;
+    z-index: 1;
+}
+
+.resumeBTN::after{
+    content: '';
+    position: absolute;
+    background-color: #1dddbc;
+    z-index: -1;
+    width: 100%; /* Set an initial width, for example, 0 */
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 16px 2px #1dddbc;
+    transition: width 0.5s;
+}
+
+.resumeBTN:hover::after{
+    width: 0;
+    
+}
