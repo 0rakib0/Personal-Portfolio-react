@@ -1,0 +1,30 @@
+.picmoving{
+    position: relative;
+    
+    
+}
+
+
+.picmoving img{
+    position: absolute;
+    width: 32%;
+    top: 0;
+    left: 0;
+    animation-name: imagemoving;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition-property: box-shadow, transform;
+    transition-duration: .5s;
+}
+
+@keyframes imagemoving{
+    25% {left: 10%; top: 0%;}
+    50% {left: 10%; top: 10%;}
+    75% {left: 0%; top: 10%;}
+    100% {left: 0%; top: 0%;}
+}
+
+.picmoving img:hover{
+    box-shadow: 0px 0px 16px 2px #1dddbc;
+    transform: rotate(2deg);
+}
