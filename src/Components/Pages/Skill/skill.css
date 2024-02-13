@@ -1,0 +1,9 @@
+.card-shadow:hover{
+    box-shadow: 0px 0px 16px 2px #1dddbc;
+    transition-duration: .5s;
+}
+
+.card-shadow:hover .scal{
+    transform: scale(1.2);
+    transition-duration: .5s;
+}

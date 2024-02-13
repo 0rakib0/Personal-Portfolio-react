@@ -5,7 +5,7 @@ const About = () =>{
         <div className="md:w-3/4 mx-auto py-8">
             <Title title='About Me' summary='Know More About Me'></Title>
             
-            <div className="flex md:flex-row flex-col-reverse justify-center picmoving">
+            <div className="flex md:flex-row flex-col-reverse justify-center picmoving md:mt-8 mt-6">
                 <div className="md:w-6/12 flex justify-center md:justify-start">
                     <img src="https://avatars.githubusercontent.com/u/99094220?s=400&u=c2a7cfe6dcdd2acdcc6be2ed33520f25c60ea23b&v=4" className="w-3/4 rounded-lg" alt="" />
                 </div>
