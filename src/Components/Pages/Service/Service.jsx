@@ -17,9 +17,6 @@ const Service = () => {
                     <MdOutlineDesignServices className="text-5xl text-secondaryColor scal my-2"></MdOutlineDesignServices>
                     <h4 className="text-2xl font-semibold mb-2">Web Design</h4>
                     <p className="">Craft visually stunning and user-friendly websites tailored to your brand's identity and optimized for seamless functionality.</p>
-                    <div>
-                
-                    </div>
                 </div>
                 <div className="bg-[#252525] rounded-lg p-4 card-shadow lg:shadow-none md:shadow-md md:shadow-secondaryColor shadow-md shadow-secondaryColor">
                     <FaLaptopCode className="text-5xl text-secondaryColor scal my-2"></FaLaptopCode>
