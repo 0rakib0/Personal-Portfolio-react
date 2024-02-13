@@ -1,0 +1,27 @@
+.parent-overlyR{
+    position: relative;
+}
+
+.overlyR{
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    padding-top: 30%;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #1dddbdbf, #1dddbc);
+    color: black;
+    transition-duration: .5s;
+}
+
+.parent-overlyR:hover .overlyR{
+    left: 0%;
+}
+
+
+.overlyR:hover .arrow{
+    transform: translate(6px);
+    transition-duration: .5s;
+}
