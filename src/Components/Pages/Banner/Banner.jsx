@@ -6,7 +6,7 @@ import './banner.css'
 
 const Banner = () => {
     return (
-        <div className="flex md:flex-row flex-col-reverse md:w-3/4 mx-auto items-center justify-between">
+        <div className="flex lg:flex-row flex-col-reverse lg:w-3/4 mx-auto items-center justify-between">
             <div className="md:w-6/12">
                 <h4 className="text-4xl font-bold">Hello! I am Rakibul Hassan</h4>
                 <h4 className="text-2xl my-4">I am <span className="text-secondaryColor">Full Stack Web developer!</span></h4>
