@@ -6,11 +6,11 @@ const Navbar = () => {
 
 
     const navLink = <>
-        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Home</a></li>
-        <li className="md:text-xl navItem md:text-white text-black"><a href="#">About</a></li>
-        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Skill</a></li>
-        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Porfolio</a></li>
-        <li className="md:text-xl navItem md:text-white text-black"><a href="#">Contact</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Home</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">About</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Skill</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Porfolio</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Contact</a></li>
     </>
 
     return (
