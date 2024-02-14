@@ -1,5 +1,6 @@
 import About from "../About/About"
 import Banner from "../Banner/Banner"
+import Contact from "../Contact/Contact"
 import QS from "../QS/QS"
 import RecentProject from "../RecentProject/RecentProject"
 import Service from "../Service/Service"
@@ -16,6 +17,7 @@ const Home = () =>{
             <TopProject></TopProject>
             <RecentProject></RecentProject>
             <QS></QS>
+            <Contact></Contact>
         </div>
     )
 }
