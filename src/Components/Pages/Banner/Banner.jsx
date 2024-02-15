@@ -19,7 +19,7 @@ const Banner = () => {
                         repeat={Infinity}
                     />
                 </span></h4>
-                <p className="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dicta quidem voluptates eaque. Nesciunt totam velit dolore nam deserunt amet.</p>
+                <p className="mb-4">I am experienced Full Stack Developer proficient in MERN stack and Django, passionate about crafting efficient and user-friendly web applications.</p>
                 <div className="flex justify-center items-center">
                     <button className="rounded-md bg-transparent border-2 border-secondaryColor py-2 px-4 md:px-6 resumeBTN flex items-center gap-2">Resume<FaFileDownload></FaFileDownload></button>
                 </div>

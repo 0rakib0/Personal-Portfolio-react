@@ -15,7 +15,7 @@ const QS = () => {
                             What programming languages and technologies do you specialize in?
                         </div>
                         <div className="collapse-content">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse libero necessitatibus quasi quo ea commodi magnam praesentium expedita soluta maxime officiis veritatis obcaecati illo, eius beatae corporis alias eos voluptatum!</p>
+                            <p>I specialize in MERN stack, Python Django, and React for full-stack web development, ensuring scalable, efficient, and user-centric applications through robust frontend and backend solutions, along with seamless integration of databases and APIs.</p>
                         </div>
                     </div>
                     <div className="collapse border-2 border-secondaryColor shadow-md hover:shadow-secondaryColor">
@@ -24,7 +24,7 @@ const QS = () => {
                             Can you provide examples of websites or web applications you've developed?
                         </div>
                         <div className="collapse-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit provident quaerat tenetur ipsam aliquam, perferendis magni incidunt asperiores consectetur a corrupti porro alias voluptatibus, mollitia autem quisquam nam, laudantium dolores!</p>
+                            <p>Examples include e-commerce platforms, social networks, and business portals, showcasing my diverse skills in full-stack development and user-centric design.</p>
                         </div>
                     </div>
                     <div className="collapse border-2 border-secondaryColor shadow-md hover:shadow-secondaryColor">
@@ -33,7 +33,7 @@ const QS = () => {
                             How do you approach responsive design and ensuring websites work well on different devices?
                         </div>
                         <div className="collapse-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis voluptatibus, quisquam, saepe porro quae doloremque aut quidem illum voluptas, omnis sed voluptatum rem maxime reprehenderit deserunt recusandae quos doloribus.</p>
+                            <p>I prioritize responsive design using media queries and flexible layouts, ensuring compatibility and optimal user experience across various devices and screen sizes.</p>
                         </div>
                     </div>
                     <div className="collapse border-2 border-secondaryColor shadow-md hover:shadow-secondaryColor">
@@ -42,7 +42,7 @@ const QS = () => {
                         What is your process for testing and debugging websites?
                         </div>
                         <div className="collapse-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga amet qui fugiat accusamus dolore cumque nobis ex eligendi sint magni veritatis odio modi vero autem harum repellat, voluptas ea aperiam.</p>
+                            <p>My process involves thorough testing across browsers and devices, utilizing debugging tools, and conducting systematic code reviews to ensure high-quality, bug-free websites.</p>
                         </div>
                     </div>
                     <div className="collapse border-2 border-secondaryColor shadow-md hover:shadow-secondaryColor">
@@ -51,7 +51,7 @@ const QS = () => {
                         How do you stay updated on new web technologies and best practices?
                         </div>
                         <div className="collapse-content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iste suscipit alias quis necessitatibus enim tenetur illo possimus, doloribus provident veniam in asperiores perspiciatis nobis minus quasi ut? Consequatur, similique.</p>
+                            <p>I stay updated through online courses, industry blogs, attending conferences, and engaging with developer communities, ensuring continuous learning and adoption of best practices.</p>
                         </div>
                     </div>
                 </div>

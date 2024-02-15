@@ -10,9 +10,12 @@ const About = () =>{
                     <img src="https://avatars.githubusercontent.com/u/99094220?s=400&u=c2a7cfe6dcdd2acdcc6be2ed33520f25c60ea23b&v=4" className="w-3/4 rounded-lg" alt="" />
                 </div>
                 <div className="lg:w-6/12 lg:my-4 md:mt-72 mt-48">
-                    <h4 className="text-4xl text-secondaryColor md:mb-4 mb-2">Hey Programerse! I am Rakibul Hasan</h4>
-                    <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deleniti quasi labore minima dolorum inventore porro illo rem doloremque optio enim laborum consequatur recusandae neque cum eligendi, voluptatum veritatis vitae placeat quod fuga quisquam dignissimos alias earum. Magni, eveniet repellendus!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum officia est amet quidem voluptate similique molestias beatae eligendi sapiente suscipit!</p>
+                    <h4 className="text-4xl text-secondaryColor md:mb-4 mb-2">I am Rakibul Hasan</h4>
+                    <p className="text-lg"><span className="text-secondaryColor">Age</span>: 24 year</p>
+                    <p className="text-lg"><span className="text-secondaryColor">Email</span> : hassanrakibul926@gmail.com</p>
+                    <p className="mb-4 text-lg"><span className="text-secondaryColor">Mobile</span>: 01571140796</p>
+                    <p className="mb-4">'m an adept Full Stack Developer skilled in MERN stack and Django, blending technical expertise with creativity. With a solid foundation in software engineering, I thrive on solving complex problems and delivering high-quality solutions.</p>
+                    <p>I offer comprehensive web development services, specializing in crafting dynamic and user-centric applications. From elegant front-end interfaces to robust back-end functionalities, I leverage my expertise to create tailored solutions that exceed client expectations and drive business growth.</p>
                 </div>
             </div>
         </div>
