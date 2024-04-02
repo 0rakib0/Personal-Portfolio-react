@@ -10,7 +10,7 @@ const Contact = () => {
     }
     
     return (
-        <div className="md:w-3/4 mx-auto py-8">
+        <div className="md:w-3/4 mx-auto py-8" id="contact">
             <Title title='Contact' summary='Feel Free To Contact Us'></Title>
             <div className="flex lg:flex-row flex-col lg:items-center gap-4">
                 <div className="lg:w-6/12">

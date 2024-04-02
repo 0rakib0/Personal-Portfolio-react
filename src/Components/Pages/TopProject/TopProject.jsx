@@ -4,7 +4,7 @@ import './topproject.css'
 import { FaArrowRight } from "react-icons/fa"
 const TopProject = () => {
     return (
-        <div className="md:w-3/4 mx-auto py-8">
+        <div className="md:w-3/4 mx-auto py-8" id="project">
             <Title title='Top Project' summary='Highlighting My Top Project'></Title>
             <div className="mt-6 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                 <div className="w-72 h-60 overflow-hidden bg-red-400 test parent-overly mx-auto">

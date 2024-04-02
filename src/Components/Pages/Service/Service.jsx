@@ -8,7 +8,7 @@ import { BsFiletypePsd } from "react-icons/bs";
 
 const Service = () => {
     return (
-        <div className="md:w-3/4 mx-auto py-8">
+        <div className="md:w-3/4 mx-auto py-8" id="service">
             <Title title='Service' summary='My Top Services'></Title>
             <div className="hidden"></div>
 

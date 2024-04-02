@@ -2,7 +2,7 @@ import Title from "../../ShareComponent/NavBar/Title"
 import './about.css'
 const About = () =>{
     return (
-        <div className="md:w-3/4 mx-auto py-8">
+        <div className="md:w-3/4 mx-auto py-8" id="about">
             <Title title='About Me' summary='Know More About Me'></Title>
             
             <div className="flex lg:flex-row flex-col-reverse justify-center picmoving md:mt-8 mt-6">

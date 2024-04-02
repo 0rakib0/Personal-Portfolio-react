@@ -7,7 +7,7 @@ import './skill.css'
 
 const Skill = () => {
     return (
-        <div className="md:w-3/4 mx-auto py-8">
+        <div className="md:w-3/4 mx-auto py-8" id="skill">
             <Title title='Skills' summary='Technologies I Like To Work With'></Title>
             <div className="hidden">
                 <div className="w-2/4 mx-auto h-[75vh] border-t border-l border-r hidden lg:block border-secondaryColor rounded-full mt-12 relative">
