@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa";
 import './Navbar.css'
 
@@ -6,7 +6,7 @@ const Navbar = () => {
 
 
     const navLink = <>
-        <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Home</a></li>
+        <li className="md:text-xl navItem lg:text-white text-black"><Link to='/'>Home</Link></li>
         <li className="md:text-xl navItem lg:text-white text-black"><a href="#">About</a></li>
         <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Skill</a></li>
         <li className="md:text-xl navItem lg:text-white text-black"><a href="#">Porfolio</a></li>
