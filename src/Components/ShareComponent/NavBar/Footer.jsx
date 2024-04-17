@@ -7,16 +7,16 @@ const Footer = () =>{
                 <p className="lg:w-2/5 md:3/4 px-2 mx-auto">Experienced Full Stack Developer proficient in MERN stack and Django. Offering tailored solutions from sleek websites to custom applications, driven by a passion for innovation and client satisfaction.</p>
                 <div className="flex gap-4 justify-center mt-6">
                     <div className="border-2 border-white p-2 rounded-full hover:border-secondaryColor hover:shadow-md hover:shadow-secondaryColor duration-200">
-                        <a href="#"><FaFacebookF className="text-3xl hover:text-secondaryColor"></FaFacebookF></a>
+                        <a href="https://www.facebook.com/rakibulhassan0011"><FaFacebookF className="text-3xl hover:text-secondaryColor"></FaFacebookF></a>
                     </div>
                     <div className="border-2 border-white p-2 rounded-full hover:border-secondaryColor hover:shadow-md hover:shadow-secondaryColor duration-200">
-                        <a href="#"><FaLinkedinIn className="text-3xl hover:text-secondaryColor"></FaLinkedinIn></a>
+                        <a href="https://www.linkedin.com/in/rakibul-hasan-46112119b/"><FaLinkedinIn className="text-3xl hover:text-secondaryColor"></FaLinkedinIn></a>
                     </div>
                     <div className="border-2 border-white p-2 rounded-full hover:border-secondaryColor hover:shadow-md hover:shadow-secondaryColor duration-200">
-                        <a href="#"><FaGithub className="text-3xl hover:text-secondaryColor"></FaGithub></a>
+                        <a href="https://github.com/0rakib0"><FaGithub className="text-3xl hover:text-secondaryColor"></FaGithub></a>
                     </div>
                     <div className="border-2 border-white p-2 rounded-full hover:border-secondaryColor hover:shadow-md hover:shadow-secondaryColor duration-200">
-                        <a href="#"><FaInstagram className="text-3xl hover:text-secondaryColor"></FaInstagram></a>
+                        <a href="https://www.instagram.com/_______rakibulhasan________/"><FaInstagram className="text-3xl hover:text-secondaryColor"></FaInstagram></a>
                     </div>
                 </div>
             </div>
